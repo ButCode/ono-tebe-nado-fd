@@ -1,1 +1,1 @@
-https://github.com/ButCode/ono-tebe-nado
+https://github.com/ButCode/ono-tebe-nado-fd
