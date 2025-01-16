@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 92px 24px 96px 24px;
+    box-sizing: border-box;
 }
 
 .header__menu {
@@ -13,7 +14,6 @@
 
 .header__menu-list {
     width: 391.48px;
-    height: 22px;
     display: flex;
     justify-content: space-between;
 }
@@ -24,7 +24,6 @@
 
 .header__logo {
     width: 148px;
-    height: 105px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +31,7 @@
 }
 
 .header__logo-image {
-    height: 104.65px;
-    margin: 1.16px 9.86px 0.81px 9.03px;
+    padding: 1.16px 9.86px 0.81px 9.03px;
 }
 
 .adress {
@@ -44,7 +42,6 @@
     line-height: 1.38em;
     justify-content: left;
     width: 240.52px;
-    height: 98px;
 }
 
 .adress-margin__header {
@@ -54,9 +51,8 @@
 .jumbotron {
     display: flex;
     flex-flow: row wrap;
-    height: 757px;
     width: 1100px;
-    background-image: url("/images/cover.jpg");
+    background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -64,15 +60,14 @@
 
 .overlay {
     background-color: rgb(0 0 0 / 0.6);
-    height: 757px;
+    display: flex;
+    flex-flow: row wrap;
     width: 1100px;
 }
 
 .title {
    width: 100%;
    max-width: 1000px;
-   height: 100%;
-   max-height: 355px;
    margin: 165px 50px 135px 50px;
    padding: 0;
 }
@@ -138,11 +133,9 @@
 
 .subtitle {
     width: 637px;
-    height: 28px;
-    margin: 12px 70px 62px 78px;
+    margin: 12px 79px 62px 78px;
     padding: 0;
     color: #fff;
-    position: absolute;
 }
 
 .subtitle__text {
@@ -164,9 +157,10 @@
 .bid__button {
     width: 256px;
     height: 51px;
-    margin: 0 50px 51px 794px;
+    margin: 0 50px 51px 0;
     padding: 0;
     border-width: 1px;
+    border-style: solid;
     border-color: #fff;
     background-color: transparent;
     font-size: 22px;
@@ -180,6 +174,7 @@
 
 .bid__button__link {
     text-decoration: none;
+    position: relative;
 }
 
 .lots {
@@ -187,15 +182,12 @@
     box-sizing: border-box;
     flex-flow: row wrap;
     width: 1052px;
-    height: 692px;
     margin: 179px 24px 146px 24px;
 }
 
 .lots__title {
     display: flex;
     box-sizing: border-box;
-    width: 121px;
-    height: 47px;
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
@@ -207,7 +199,6 @@
     box-sizing: border-box;
     justify-content: space-between;
     width: 1052px;
-    height: 563px;
     margin: 0 0 30px 0;
 }
 
@@ -224,20 +215,22 @@
 }
 
 .lot__1__bg-link {
-    background-image: url("/images/card-lot-01.jpg");
+    background-image: url("../images/card-lot-01.jpg");
 }
 
 .lot__2__bg-link {
-    background-image: url("/images/card-lot-02.jpg");
+    background-image: url("../images/card-lot-02.jpg");
 }
 
 .lot__3__bg-link {
-    background-image: url("/images/card-lot-03.jpg");
+    background-image: url("../images/card-lot-03.jpg");
 }
 
 .lot__overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(0 0 0 / 0.6);
-    height: 100%;
     width: 100%;
 }
 
@@ -246,18 +239,7 @@
     font-size: 22px;
     text-transform: uppercase;
     font-weight: bold;
-}
-
-.lot__1-title__margin {
-    margin: 51px 40px 238px 40px;
-}
-
-.lot__2-title__margin {
     margin: 51px 40px 0 40px;
-}
-
-.lot__3-title__margin {
-    margin: 51px 40px 90px 40px;
 }
 
 .lot__description {
@@ -271,7 +253,6 @@
 .more {
     font-size: 20px;
     text-transform: lowercase;
-    width: 192px;
     height: 23px;
     margin: 0 820px 2px 40px;
     color: black;
@@ -287,7 +268,6 @@
 
 .about__logo-bg {
     width: 240px;
-    height: 240px;
     background-color: black;
     border-radius: 50%;
     margin: 35px 72px 320px 47px;
@@ -298,7 +278,6 @@
     display: flex;
     box-sizing: border-box;
     width: 148px;
-    height: 114px;
     justify-self: center;
 }
 
@@ -307,7 +286,6 @@
     box-sizing: border-box;
     flex-flow: column;
     width: 693px;
-    height: 449px;
     margin: 133px 0 13px 0;
 }
 
@@ -346,7 +324,6 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 1000px;
-    height: 98px;
     margin: 180px 50px 88px 50px;
 }
 
@@ -356,7 +333,6 @@
     align-items: center;
     font-size: 18px;
     width: 149px;
-    height: 64px;
 }
 
 .footer__socials {
@@ -364,11 +340,9 @@
     box-sizing: border-box;
     justify-content: space-between;
     width: 240px;
-    height: 48px;
 }
 
 .logo-size {
     width: 48px;
-    height: 48px;
 }
 
