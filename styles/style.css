@@ -34,19 +34,22 @@
     padding: 1.16px 9.86px 0.81px 9.03px;
 }
 
-.adress {
+address {
     display: flex;
     box-sizing: border-box;
     flex-flow: column;
     font-size: 18px;
+    font-style: normal;
     line-height: 1.38em;
     justify-content: left;
     width: 240.52px;
 }
 
-.adress-margin__header {
+.address_header__margin {
     margin: 5px 25.48px 2px 184px;
 }
+
+
 
 .jumbotron {
     display: flex;
@@ -94,19 +97,19 @@
     line-height: 140px;
 }
 
-.title__letter-center-t {
+.title__letter-center-first {
     padding-left: 286px;
 }
 
-.title__letter-center-e1 {
+.title__letter-center-second {
     padding-left: 9px;
 }
 
-.title__letter-center-b {
+.title__letter-center-third {
     padding-left: 6px;
 }
 
-.title__letter-center-e2 {
+.title__letter-center-fourth {
     padding-left: 36px;
 }
 
@@ -115,19 +118,19 @@
     line-height: 100px;
 }
 
-.title__letter-right-n {
+.title__letter-right-first {
     padding-left: 584px;
 }
 
-.title__letter-right-a {
+.title__letter-right-second {
     padding-left: 36px;
 }
 
-.title__letter-right-d {
+.title__letter-right-third {
     padding-left: 9px;
 }
 
-.title__letter-right-o {
+.title__letter-right-fourth {
     padding-left:5px;
 }
 
@@ -145,11 +148,11 @@
     line-height: 28px;
 }
 
-.subtitle__text-auction-veshei {
+.subtitle__text-first-part {
     word-spacing: 0.9em;
 }
 
-.subtitle__text-v-kotorie {
+.subtitle__text-second-part {
     padding-left: 17px;
     word-spacing: 0.84em;
 }
@@ -214,15 +217,15 @@
     font-family: Raleway;
 }
 
-.lot__1__bg-link {
+.lot__a__bg-link {
     background-image: url("../images/card-lot-01.jpg");
 }
 
-.lot__2__bg-link {
+.lot__b__bg-link {
     background-image: url("../images/card-lot-02.jpg");
 }
 
-.lot__3__bg-link {
+.lot__c__bg-link {
     background-image: url("../images/card-lot-03.jpg");
 }
 
@@ -238,6 +241,7 @@
     display: flex;
     font-size: 22px;
     text-transform: uppercase;
+    text-decoration: underline;
     font-weight: bold;
     margin: 51px 40px 0 40px;
 }
@@ -246,6 +250,7 @@
     display: flex;
     font-size: 20px;
     font-weight: normal;
+    text-decoration: none;
     line-height: 120%;
     margin: 0 40px 48px 40px;
 }

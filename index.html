@@ -29,17 +29,13 @@
           src="./images/logo-black.svg"
           alt="логотип оно тебе надо" />
       </a>
-      <div class="adress adress-margin__header">
-        <span class="adress__phone">
-          <a class="adress-link" href="+99995555555">+9 999 555 5555</a>
-        </span>
-        <span class="adress__mail">
-          <a class="adress-link" href="info@sobaka.ge">info@sobaka.ge</a>
-        </span>
-        <span class="adress__place">
+      <div class="address_header__margin">
+        <address>
+          <a href="+99995555555">+9 999 555 5555</a>
+          <a href="info@sobaka.ge">info@sobaka.ge</a>
           наб. Принсенграхт 263-<br>
           265, Амстердам<br>
-        </span>
+        </address>
       </div>
     </header>
     <main class="content">
@@ -49,23 +45,23 @@
             <span class="title__letter title__letter-left">о</span>
             <span class="title__letter title__letter-left title__letter-space">но</span>
             <span class="title__letter title__letter-center">
-              <span class="title__letter-center-t">т</span>
-              <span class="title__letter-center-e1">e</span>
-              <span class="title__letter-center-b">б</span>
-              <span class="title__letter-center-e2">e</span>
+              <span class="title__letter-center-first">т</span>
+              <span class="title__letter-center-second">e</span>
+              <span class="title__letter-center-third">б</span>
+              <span class="title__letter-center-fourth">e</span>
             </span>
             <span class="title__letter title__letter-right">
-              <span class="title__letter-right-n">н</span>
-              <span class="title__letter-right-a">а</span>
-              <span class="title__letter-right-d">д</span>
-              <span class="title__letter-right-o">о</span>
+              <span class="title__letter-right-first">н</span>
+              <span class="title__letter-right-second">а</span>
+              <span class="title__letter-right-third">д</span>
+              <span class="title__letter-right-fourth">о</span>
             </span>
           </h1>
           <div class="subtitle">
-            <span class="subtitle__text">
-              <span class="subtitle__text-auction-veshei">Аукцион вещей,</span>
-              <span class="subtitle__text-v-kotorie">в которые никто не верил</span>
-            </span>
+            <p class="subtitle__text">
+              <span class="subtitle__text-first-part">Аукцион вещей,</span>
+              <span class="subtitle__text-second-part">в которые никто не верил</span>
+            </p>
           </div>
           <button class="bid__button"
           onclick="window.location.href='#0';">сделать ставку</button>
@@ -74,34 +70,32 @@
       <section class="lots">
         <h2 class="lots__title">лоты</h2>
         <div class="lots__all">
-          <div class="lot lot__1__bg-link">
-            <div class="lot__overlay">
-              <span class="lot__title lot__1-title__margin">
-                <a class="lot__link" href="more">Фильм режиссёра, который бросил киношколу</a>
-              </span>
-              <span class="lot__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</span>
+          <a class="lot__link" href="more">
+            <div class="lot lot__a__bg-link">
+              <div class="lot__overlay">
+                <h3 class="lot__title">Фильм режиссёра, который бросил киношколу</h3>
+                <p class="lot__description">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
+              </div>
             </div>
-          </div>
-          <div class="lot lot__2__bg-link">
-            <div class="lot__overlay">
-              <span class="lot__title lot__2-title__margin">
-                <a class="lot__link" href="more">Книга, где описан один скучный день из жизни рекламного агента</a>
-              </span>
-              <span class="lot__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</span>
+          </a>
+          <a class="lot__link" href="more">
+            <div class="lot lot__b__bg-link">
+              <div class="lot__overlay">
+                <h3 class="lot__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+                <p class="lot__description">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
+              </div>
             </div>
-          </div>
-          <div class="lot lot__3__bg-link">
-            <div class="lot__overlay">
-              <span class="lot__title lot__3-title__margin">
-                <a class="lot__link" href="more">Картина, которую повторит даже 5-летний сын маминой подруги</a>
-              </span>
-              <span class="lot__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</span>
+          </a>
+          <a class="lot__link" href="more">
+            <div class="lot lot__c__bg-link">
+              <div class="lot__overlay">
+                <h3 class="lot__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+                <p class="lot__description">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
-        <span class="more">
-          <a class="more__link" href="more">посмотреть больше</a>
-        </span>
+        <a class="more" href="more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo-bg">
@@ -111,61 +105,32 @@
             alt="логотип оно тебе надо"/>
           </a>
         </div>
-        <div class="about__text">
-          <span class="about__title">Об аукционе</span>
+        <span class="about__text">
+          <h2 class="about__title">Об аукционе</h2>
           <div class="about__description">
-            <span class="about__description-1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</span>
-            <span class="about__description-2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</span>
+            <p class="about__description-1">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+            <p class="about__description-2">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+              на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
           </div>
-        </div>
+        </span>
       </section>
     </main>
     <footer class="footer">
-      <div class="adress">
-        <span class="adress__phone">
-          <a class="adress-link" href="+99995555555">+9 999 555 5555</a>
-        </span>
-        <span class="adress__mail">
-          <a class="adress-link" href="info@sobaka.ge">info@sobaka.ge</a>
-        </span>
-        <span class="adress__place">
+      <address>
+        <a href="+99995555555">+9 999 555 5555</a>
+        <a href="info@sobaka.ge">info@sobaka.ge</a>
           наб. Принсенграхт 263-<br>
           265, Амстердам<br>
-        </span>
-      </div>
+      </address>
       <nav class="footer__menu">
-        <span class="footer__menu-main">
-          <a class="menu__item-link">главная</a>
-        </span>
-        <span class="footer__menu-lots">
-          <a class="menu__item-link" href="#0">посмотреть лоты</a>
-        </span>
-        <span class="footer__menu-about">
-          <a class="menu__item-link" href="#0">об аукционе</a>
-        </span>
+        <a>главная</a>
+        <a href="#0">посмотреть лоты</a>
+        <a href="#0">об аукционе</a>
       </nav>
       <div class="footer__socials">
-        <div class="youtube logo-size">
-          <a class="youtube__logo">
-            <img class="youtube__logo-image"
-              src="./images/yt.svg"
-              alt="логотип youtube"/>
-          </a>
-        </div>
-        <div class="vk logo-size">
-          <a class="vk__logo">
-            <img class="vk__logo-image"
-              src="./images/vk.svg"
-              alt="логотип vk"/>
-          </a>
-        </div>
-        <div class="pinterest logo-size">
-          <a class="pinterest__logo">
-            <img class="pinterest__logo-image"
-              src="./images/pinterest.svg"
-              alt="логотип pinterest"/>
-          </a>
+          <a class="logo-size"><img src="./images/yt.svg" alt="логотип youtube"/></a>
+          <a class="logo-size"><img src="./images/vk.svg" alt="логотип vk"/></a>
+          <a class="logo-size"><img src="./images/pinterest.svg" alt="логотип pinterest"/></a>
         </div>
       </div>
     </footer>
