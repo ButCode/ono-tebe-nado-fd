@@ -45,11 +45,9 @@ address {
     width: 240.52px;
 }
 
-.address_header__margin {
+.header__margin {
     margin: 5px 25.48px 2px 184px;
 }
-
-
 
 .jumbotron {
     display: flex;
@@ -61,11 +59,16 @@ address {
     background-repeat: no-repeat;
 }
 
-.overlay {
-    background-color: rgb(0 0 0 / 0.6);
+.jumbotron_display {
     display: flex;
     flex-flow: row wrap;
-    width: 1100px;
+}
+
+.overlay {
+    display: flex;
+
+    background-color: rgb(0 0 0 / 0.6);
+    width: 100%;
 }
 
 .title {
@@ -97,19 +100,19 @@ address {
     line-height: 140px;
 }
 
-.title__letter-center-first {
+.title__letter-center-tree {
     padding-left: 286px;
 }
 
-.title__letter-center-second {
+.title__letter-center-eye {
     padding-left: 9px;
 }
 
-.title__letter-center-third {
+.title__letter-center-ball {
     padding-left: 6px;
 }
 
-.title__letter-center-fourth {
+.title__letter-center-eat {
     padding-left: 36px;
 }
 
@@ -118,19 +121,19 @@ address {
     line-height: 100px;
 }
 
-.title__letter-right-first {
+.title__letter-right-now {
     padding-left: 584px;
 }
 
-.title__letter-right-second {
+.title__letter-right-ant {
     padding-left: 36px;
 }
 
-.title__letter-right-third {
+.title__letter-right-dog {
     padding-left: 9px;
 }
 
-.title__letter-right-fourth {
+.title__letter-right-old {
     padding-left:5px;
 }
 
@@ -209,12 +212,11 @@ address {
     display: flex;
     box-sizing: border-box;
     width: 334px;
-    height: 563px;
+    min-height: 563px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     color: #fff;
-    font-family: Raleway;
 }
 
 .lot__a__bg-link {
@@ -229,11 +231,10 @@ address {
     background-image: url("../images/card-lot-03.jpg");
 }
 
-.lot__overlay {
+.lot__display {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(0 0 0 / 0.6);
     width: 100%;
 }
 
@@ -273,6 +274,7 @@ address {
 
 .about__logo-bg {
     width: 240px;
+    height: 240px;
     background-color: black;
     border-radius: 50%;
     margin: 35px 72px 320px 47px;
@@ -291,7 +293,7 @@ address {
     box-sizing: border-box;
     flex-flow: column;
     width: 693px;
-    margin: 133px 0 13px 0;
+    padding: 133px 0 13px 0;
 }
 
 .about__title {
